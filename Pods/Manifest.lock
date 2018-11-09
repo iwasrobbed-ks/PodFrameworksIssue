@@ -1,0 +1,16 @@
+PODS:
+  - Switchboard (0.2.3)
+
+DEPENDENCIES:
+  - Switchboard
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Switchboard
+
+SPEC CHECKSUMS:
+  Switchboard: 77b361df8758a9aca25978c4a651ba64a7eebbdd
+
+PODFILE CHECKSUM: 9e5758815492b7cd328c2a1ad8bb573275df1ca0
+
+COCOAPODS: 1.5.3

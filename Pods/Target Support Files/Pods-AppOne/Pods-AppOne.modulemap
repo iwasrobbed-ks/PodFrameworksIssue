@@ -1,0 +1,6 @@
+module Pods_AppOne {
+  umbrella header "Pods-AppOne-umbrella.h"
+
+  export *
+  module * { export * }
+}

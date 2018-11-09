@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85D8FA456D6D8B481A45EB12 /* libPods-AppOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 578E952B5434E945E8D4E183 /* libPods-AppOne.a */; };
 		D4453836219613B3003E2E16 /* MyOtherAmazingFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4453835219613B3003E2E16 /* MyOtherAmazingFramework.framework */; };
 		D4453837219613B3003E2E16 /* MyOtherAmazingFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4453835219613B3003E2E16 /* MyOtherAmazingFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D445384E21961872003E2E16 /* MyAmazingFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D445384D21961872003E2E16 /* MyAmazingFramework.framework */; };
@@ -34,6 +35,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		578E952B5434E945E8D4E183 /* libPods-AppOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppOne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE287B6EDEF4F9253A29A380 /* Pods-AppOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppOne.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-AppOne/Pods-AppOne.debug.xcconfig"; sourceTree = "<group>"; };
 		D4453835219613B3003E2E16 /* MyOtherAmazingFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MyOtherAmazingFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D445384D21961872003E2E16 /* MyAmazingFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MyAmazingFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4758F8B2191F98C0020D426 /* AppOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +46,7 @@
 		D4758F952191F98E0020D426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4758F982191F98E0020D426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4758F9A2191F98E0020D426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F21B65E7BA4EFD1D5BC89B9F /* Pods-AppOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppOne.release.xcconfig"; path = "../Pods/Target Support Files/Pods-AppOne/Pods-AppOne.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,12 +56,30 @@
 			files = (
 				D4453836219613B3003E2E16 /* MyOtherAmazingFramework.framework in Frameworks */,
 				D445384E21961872003E2E16 /* MyAmazingFramework.framework in Frameworks */,
+				85D8FA456D6D8B481A45EB12 /* libPods-AppOne.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9BE018FEF3E5F845C6B5C45F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE287B6EDEF4F9253A29A380 /* Pods-AppOne.debug.xcconfig */,
+				F21B65E7BA4EFD1D5BC89B9F /* Pods-AppOne.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AF4CA2251A9B7A908F1E965F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578E952B5434E945E8D4E183 /* libPods-AppOne.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D4758F822191F98C0020D426 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +87,8 @@
 				D4453835219613B3003E2E16 /* MyOtherAmazingFramework.framework */,
 				D4758F8D2191F98D0020D426 /* AppOne */,
 				D4758F8C2191F98C0020D426 /* Products */,
+				9BE018FEF3E5F845C6B5C45F /* Pods */,
+				AF4CA2251A9B7A908F1E965F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +120,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4758F9D2191F98E0020D426 /* Build configuration list for PBXNativeTarget "AppOne" */;
 			buildPhases = (
+				C372F124A3F19DA8CFF0C0A1 /* [CP] Check Pods Manifest.lock */,
 				D4758F872191F98C0020D426 /* Sources */,
 				D4758F882191F98C0020D426 /* Frameworks */,
 				D4758F892191F98C0020D426 /* Resources */,
@@ -155,6 +180,31 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C372F124A3F19DA8CFF0C0A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppOne-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D4758F872191F98C0020D426 /* Sources */ = {
@@ -306,6 +356,7 @@
 		};
 		D4758F9E2191F98E0020D426 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE287B6EDEF4F9253A29A380 /* Pods-AppOne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -328,6 +379,7 @@
 		};
 		D4758F9F2191F98E0020D426 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F21B65E7BA4EFD1D5BC89B9F /* Pods-AppOne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+module Pods_MyAmazingFramework {
+  umbrella header "Pods-MyAmazingFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}
