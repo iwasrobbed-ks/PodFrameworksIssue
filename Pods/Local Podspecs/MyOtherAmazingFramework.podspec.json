@@ -1,0 +1,31 @@
+{
+  "name": "MyOtherAmazingFramework",
+  "summary": "Testing 1-2-3",
+  "homepage": "https://github.com/KeepSafe/iOS",
+  "version": "0.1.0",
+  "license": {
+    "type": "Apache 2.0",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Rob Phillips": "rob@getkeepsafe.com"
+  },
+  "source": {
+    "git": "https://github.com/KeepSafe/iOS.git",
+    "tag": "MyOtherAmazingFramework_v0.1.0"
+  },
+  "source_files": "MyOtherAmazingFramework/**/*.swift",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_version": "4.2",
+  "requires_arc": true,
+  "dependencies": {
+    "MyAmazingFramework": [
+
+    ],
+    "Switchboard": [
+
+    ]
+  }
+}

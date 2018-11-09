@@ -7,11 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		85D8FA456D6D8B481A45EB12 /* libPods-AppOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 578E952B5434E945E8D4E183 /* libPods-AppOne.a */; };
-		D4453836219613B3003E2E16 /* MyOtherAmazingFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4453835219613B3003E2E16 /* MyOtherAmazingFramework.framework */; };
-		D4453837219613B3003E2E16 /* MyOtherAmazingFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4453835219613B3003E2E16 /* MyOtherAmazingFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D445384E21961872003E2E16 /* MyAmazingFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D445384D21961872003E2E16 /* MyAmazingFramework.framework */; };
-		D445384F21961872003E2E16 /* MyAmazingFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D445384D21961872003E2E16 /* MyAmazingFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		111AB3628CA93AF910F405C0 /* libPods-AppOne.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF3EF078C09E61210032585 /* libPods-AppOne.a */; };
 		D4758F8F2191F98D0020D426 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4758F8E2191F98D0020D426 /* AppDelegate.swift */; };
 		D4758F912191F98D0020D426 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4758F902191F98D0020D426 /* ViewController.swift */; };
 		D4758F942191F98D0020D426 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4758F922191F98D0020D426 /* Main.storyboard */; };
@@ -19,26 +15,8 @@
 		D4758F992191F98E0020D426 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4758F972191F98E0020D426 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		D4758FDA2191FBE40020D426 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				D4453837219613B3003E2E16 /* MyOtherAmazingFramework.framework in Embed Frameworks */,
-				D445384F21961872003E2E16 /* MyAmazingFramework.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		578E952B5434E945E8D4E183 /* libPods-AppOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppOne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE287B6EDEF4F9253A29A380 /* Pods-AppOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppOne.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-AppOne/Pods-AppOne.debug.xcconfig"; sourceTree = "<group>"; };
-		D4453835219613B3003E2E16 /* MyOtherAmazingFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MyOtherAmazingFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D445384D21961872003E2E16 /* MyAmazingFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MyAmazingFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F1483A529991D47E3A762C1 /* Pods-AppOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppOne.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-AppOne/Pods-AppOne.debug.xcconfig"; sourceTree = "<group>"; };
 		D4758F8B2191F98C0020D426 /* AppOne.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppOne.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4758F8E2191F98D0020D426 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4758F902191F98D0020D426 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +24,8 @@
 		D4758F952191F98E0020D426 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4758F982191F98E0020D426 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4758F9A2191F98E0020D426 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F21B65E7BA4EFD1D5BC89B9F /* Pods-AppOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppOne.release.xcconfig"; path = "../Pods/Target Support Files/Pods-AppOne/Pods-AppOne.release.xcconfig"; sourceTree = "<group>"; };
+		DEF3EF078C09E61210032585 /* libPods-AppOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AppOne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFCAC7A7688C148348D223D6 /* Pods-AppOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppOne.release.xcconfig"; path = "../Pods/Target Support Files/Pods-AppOne/Pods-AppOne.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,41 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4453836219613B3003E2E16 /* MyOtherAmazingFramework.framework in Frameworks */,
-				D445384E21961872003E2E16 /* MyAmazingFramework.framework in Frameworks */,
-				85D8FA456D6D8B481A45EB12 /* libPods-AppOne.a in Frameworks */,
+				111AB3628CA93AF910F405C0 /* libPods-AppOne.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9BE018FEF3E5F845C6B5C45F /* Pods */ = {
+		4C86A6261F598149FD55188C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CE287B6EDEF4F9253A29A380 /* Pods-AppOne.debug.xcconfig */,
-				F21B65E7BA4EFD1D5BC89B9F /* Pods-AppOne.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		AF4CA2251A9B7A908F1E965F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				578E952B5434E945E8D4E183 /* libPods-AppOne.a */,
+				DEF3EF078C09E61210032585 /* libPods-AppOne.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6CD203FEE2EDA33E97984F53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F1483A529991D47E3A762C1 /* Pods-AppOne.debug.xcconfig */,
+				DFCAC7A7688C148348D223D6 /* Pods-AppOne.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		D4758F822191F98C0020D426 = {
 			isa = PBXGroup;
 			children = (
-				D445384D21961872003E2E16 /* MyAmazingFramework.framework */,
-				D4453835219613B3003E2E16 /* MyOtherAmazingFramework.framework */,
 				D4758F8D2191F98D0020D426 /* AppOne */,
 				D4758F8C2191F98C0020D426 /* Products */,
-				9BE018FEF3E5F845C6B5C45F /* Pods */,
-				AF4CA2251A9B7A908F1E965F /* Frameworks */,
+				6CD203FEE2EDA33E97984F53 /* Pods */,
+				4C86A6261F598149FD55188C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,11 +95,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D4758F9D2191F98E0020D426 /* Build configuration list for PBXNativeTarget "AppOne" */;
 			buildPhases = (
-				C372F124A3F19DA8CFF0C0A1 /* [CP] Check Pods Manifest.lock */,
+				FE02E43D5E6316AAFCFE073D /* [CP] Check Pods Manifest.lock */,
 				D4758F872191F98C0020D426 /* Sources */,
 				D4758F882191F98C0020D426 /* Frameworks */,
 				D4758F892191F98C0020D426 /* Resources */,
-				D4758FDA2191FBE40020D426 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,7 +156,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C372F124A3F19DA8CFF0C0A1 /* [CP] Check Pods Manifest.lock */ = {
+		FE02E43D5E6316AAFCFE073D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -356,7 +330,7 @@
 		};
 		D4758F9E2191F98E0020D426 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CE287B6EDEF4F9253A29A380 /* Pods-AppOne.debug.xcconfig */;
+			baseConfigurationReference = 8F1483A529991D47E3A762C1 /* Pods-AppOne.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -379,7 +353,7 @@
 		};
 		D4758F9F2191F98E0020D426 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F21B65E7BA4EFD1D5BC89B9F /* Pods-AppOne.release.xcconfig */;
+			baseConfigurationReference = DFCAC7A7688C148348D223D6 /* Pods-AppOne.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

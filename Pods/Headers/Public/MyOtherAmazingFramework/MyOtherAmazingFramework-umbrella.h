@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_MyOtherAmazingFrameworkVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_MyOtherAmazingFrameworkVersionString[];
+FOUNDATION_EXPORT double MyOtherAmazingFrameworkVersionNumber;
+FOUNDATION_EXPORT const unsigned char MyOtherAmazingFrameworkVersionString[];
 

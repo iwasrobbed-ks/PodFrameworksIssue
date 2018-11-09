@@ -1,0 +1,6 @@
+module MyAmazingFramework {
+  umbrella header "MyAmazingFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -9,6 +9,7 @@
 import UIKit
 import MyAmazingFramework
 import MyOtherAmazingFramework
+import Switchboard
 
 class ViewController: UIViewController {}
 

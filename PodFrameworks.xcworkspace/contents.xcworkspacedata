@@ -5,12 +5,6 @@
       location = "group:AppOne/AppOne.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:MyAmazingFramework/MyAmazingFramework.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:MyOtherAmazingFramework/MyOtherAmazingFramework.xcodeproj">
-   </FileRef>
-   <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
 </Workspace>

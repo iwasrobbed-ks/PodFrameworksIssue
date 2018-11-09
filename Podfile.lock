@@ -1,16 +1,31 @@
 PODS:
+  - MyAmazingFramework (0.1.0):
+    - Switchboard
+  - MyOtherAmazingFramework (0.1.0):
+    - MyAmazingFramework
+    - Switchboard
   - Switchboard (0.2.3)
 
 DEPENDENCIES:
+  - MyAmazingFramework (from `MyAmazingFramework`)
+  - MyOtherAmazingFramework (from `MyOtherAmazingFramework`)
   - Switchboard
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Switchboard
 
+EXTERNAL SOURCES:
+  MyAmazingFramework:
+    :path: MyAmazingFramework
+  MyOtherAmazingFramework:
+    :path: MyOtherAmazingFramework
+
 SPEC CHECKSUMS:
+  MyAmazingFramework: a007f743c5653de2a0ef686efe483842eb86d2c6
+  MyOtherAmazingFramework: b793b2a2687a7a5493ce21033455ba1bd1f033fe
   Switchboard: 77b361df8758a9aca25978c4a651ba64a7eebbdd
 
-PODFILE CHECKSUM: 9e5758815492b7cd328c2a1ad8bb573275df1ca0
+PODFILE CHECKSUM: d504ccad744f404891442f862ee34a92db89ac72
 
 COCOAPODS: 1.5.3

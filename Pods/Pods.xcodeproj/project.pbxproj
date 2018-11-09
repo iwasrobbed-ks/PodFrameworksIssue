@@ -7,171 +7,192 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03C2DAE7BDF0507248366301AC7EC06D /* SwitchboardValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016E7DC36A959EBDEB4EFEEE125B6C35 /* SwitchboardValue.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		04353F7DFA2966C716717BAC5B155D56 /* SwitchboardDebugExperimentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1437CC4F17E9834B2E9EB740AD9B190E /* SwitchboardDebugExperimentView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		067CFC5C1E61B57F40510A62C1ADB159 /* SwitchboardPrefillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F939B8803AB4F52EBB8CB03F39A02F4 /* SwitchboardPrefillController.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		096BC6A8A81D5C5B88C6EA0C9B378FED /* SwitchboardDefaultStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9107EF8052C2E2C00047045882CE4B78 /* SwitchboardDefaultStore.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0BAB01A7A410BAB276CA51E33FC9C0D1 /* SwitchboardStorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113B1CD0D4C4DFE6E2CAB297032D070B /* SwitchboardStorable.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0FA209C69983AA35DE56D7083FBA4C3A /* Pods-MyAmazingFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1562A21E143025E1412BA1BDB5164E3 /* Pods-MyAmazingFramework-dummy.m */; };
-		14230A48CED4C5AB145879A274ABF2B4 /* SwitchboardKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D5BB48E32D489B2A3A87220EA8AB84 /* SwitchboardKeys.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1A526B06091D0370D53E29DDF7C79643 /* Switchboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98C424EDA9938B7E050DF3DB3727D13 /* Switchboard.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		1D4E1A66775E55E88646AF33C3633085 /* Switchboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2533F943F3F4619E32404DC28C2AB501 /* Switchboard-dummy.m */; };
-		1ED568CAA8924422820911640ACA9C6F /* SwitchboardDebugExperimentEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9713044E99468050783337AB9DE01182 /* SwitchboardDebugExperimentEditView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		222DAAFCDB59632C288152503072D9BF /* Pods-MyAmazingFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B60CA3643CE4CB587386B39063278B4 /* Pods-MyAmazingFramework-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		23643725DA7862217320EAD9852F8849 /* SwitchboardDebugFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574F57AD77B3DC3B71536C9226BED6B /* SwitchboardDebugFeatureView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		2A1B7E8C63233A82E412B751A63BD71C /* SwitchboardPrefillFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AEF102A30CE55807253799861207BB /* SwitchboardPrefillFeatureView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		379C0C59BAEB3389DBEA20E5E198DAC0 /* SwitchboardDebugButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196ED45D58B62C24885B8BF49E67EF9 /* SwitchboardDebugButtonCell.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		3A4F746EF5DFEED21563BB47E2BE3146 /* SwitchboardPrefillExperimentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8B4A4D7A4AC52FF8288918B952C18 /* SwitchboardPrefillExperimentView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4B3F4114F93D718615ABA01D13C5474C /* Pods-MyOtherAmazingFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3C6649BF3D3F22606860B4FDCB3D6E0 /* Pods-MyOtherAmazingFramework-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4F1420C583BE61005F66A8324ED517FC /* SwitchboardDebugListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E114C9888052FF21692125173580726C /* SwitchboardDebugListHeader.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		54ED3001FCDB52D00D225EF96F5EFF51 /* Pods-AppOne-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F81BD78F9AE755011565D6C07704BA3E /* Pods-AppOne-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		551AC0333F479C221699270FB9A06256 /* SwitchboardJSONTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBC615B55B06441E4828B4E3C9F4E75 /* SwitchboardJSONTransformer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		5770DCA45BCB0E9E31364B809AD38208 /* SwitchboardDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4226CAE044BB033933E77759ED63EC /* SwitchboardDebugView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		5ADD8EA523283385CACF1F8C9B53155D /* SwitchboardCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ACA1935FE8F8C370D5C2F8F6262111 /* SwitchboardCache.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		5B9D02CFDBF01299A52D7A9C264A8880 /* Switchboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 308B6B1740161F266FDDF4630908E07E /* Switchboard-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6610EF2439FEFB19C0C1384CFD72AFA5 /* SwitchboardAnalyticsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516FAE57B5C37373A94561FDAA5159A1 /* SwitchboardAnalyticsProvider.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		691B37727F77506749FB0BF17E195759 /* Pods-AppOne-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FC54807B8E0580D876D15B7D70113A /* Pods-AppOne-dummy.m */; };
-		70B17B3360444C2C4EAC9A52D4FED82F /* Pods-MyOtherAmazingFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21456E5422443E5263AB3CAD1BA534E1 /* Pods-MyOtherAmazingFramework-dummy.m */; };
-		862FCC41CB04109C30ED053E09E98A65 /* SwitchboardDebugListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D30EEB8C8FF229C3FF44D769FE4AD /* SwitchboardDebugListView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8C375548596A5E2A84F4308E27E719F7 /* SwitchboardExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DCB5983873C9CEF7EDAD14A37B6A68 /* SwitchboardExperiment.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		8D474093D23458E23AF2ED64E1F7FC06 /* SwitchboardPrefillListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E418F9314E4CB9C6E5CB7162F1C741F8 /* SwitchboardPrefillListView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		97316355199DE927641E08D0067DE473 /* SwitchboardDebugController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603F95AA32663B808265AA5C86CDA7D0 /* SwitchboardDebugController.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		99A97B2B25072A983DC25CADA7D1768F /* SwitchboardFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8967A9B73B50B535CC4AA9044FD62B1C /* SwitchboardFeature.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		9BEBDDC9C278EE4D1263393DDF8B4000 /* SwitchboardDebugEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB73737C6995C7F73F114433488E09A /* SwitchboardDebugEditView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		A17C2F0CA59CD064B56A461637B38897 /* SwitchboardCacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613B2B7812037EACD24B21EFA8C61BAF /* SwitchboardCacheable.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		ADB4D9DA37FCB054FEDD5B8710E32AFD /* SwitchboardExperiment+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDCD7CE430BA6969C06D73886D25235 /* SwitchboardExperiment+Debug.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		C174E0FAA119406DDF3237821248A4F6 /* SwitchboardProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0614AC2FE70A1EBC159AF16B10484 /* SwitchboardProperties.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		CBB37C4D323C4DF9FB548F3279C2FDCF /* UITableView+Bug.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F71A4D68CF7DCF2E1C8394E1C79C4C /* UITableView+Bug.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		D77C64BC7EECD23DA525AAE432CA7A49 /* SwitchboardClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E6B06BC89A2C225F15D083B9454D68 /* SwitchboardClient.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		D98E664504742B02E846D6DA3103BE06 /* SwitchboardDebugSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE63324454684458E996C5E8E4C7924 /* SwitchboardDebugSetting.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		DAC4047429ACC872215B46E63DA9CF0C /* SwitchboardDebugFeatureEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E2B112B5713CB00E50268E37B1062 /* SwitchboardDebugFeatureEditView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E5FD1A9410BF6F4546268AF2C6928F8D /* SwitchboardDebugTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F80E086CEE6718E2C8D4D5B0CE5CFC /* SwitchboardDebugTextFieldCell.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		EF555578E69E07DD6BC1DB0249217775 /* SwitchboardDebugToggleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD465331E2844C3D4FD761B83C05271 /* SwitchboardDebugToggleCell.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F0EB6CB5DEB617ECE2A58F9D4BCFEC25 /* SwitchboardDebugTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E6635B9D589F4BD0B2D83158832765 /* SwitchboardDebugTextViewCell.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F912FCA790FD3270863A62867302CF56 /* SwitchboardLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71A748EF182190650F40F2B739BFEBF /* SwitchboardLogging.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		F9448C60B47DB2F03BC76E79425A2F91 /* SwitchboardDebugTapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36B0B2BC54D08810B084F5CC4914C72 /* SwitchboardDebugTapCell.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		00F61B4063E9346029F6A1CC56CAF20F /* SwitchboardDebugTapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36B0B2BC54D08810B084F5CC4914C72 /* SwitchboardDebugTapCell.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		035F9C3AEE23309BA4B9D8FC24874E8C /* SwitchboardPrefillExperimentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F8B4A4D7A4AC52FF8288918B952C18 /* SwitchboardPrefillExperimentView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0697EA503848581CBB0E88F59B3AF34A /* SwitchboardExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01DCB5983873C9CEF7EDAD14A37B6A68 /* SwitchboardExperiment.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0BC3480C3705C14F47AFDECB2686F11A /* SwitchboardExperiment+Debug.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDDCD7CE430BA6969C06D73886D25235 /* SwitchboardExperiment+Debug.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0C1B3D626F38D3F66C4A2F289C623D84 /* Switchboard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 308B6B1740161F266FDDF4630908E07E /* Switchboard-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		19A66901DCC6AC70066E7E36CCFC3C80 /* SwitchboardPrefillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F939B8803AB4F52EBB8CB03F39A02F4 /* SwitchboardPrefillController.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1EFFAA7E248947010A8B25855FB552D4 /* SwitchboardAnalyticsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516FAE57B5C37373A94561FDAA5159A1 /* SwitchboardAnalyticsProvider.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		231CF973DFC9FD88CF9C64AC5B0510A3 /* MyAmazingFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A59964C712511B89E8C69C8A025F7E /* MyAmazingFramework-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		300DF252A16927E82759FEB8C50253B0 /* Pods-AppOne-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 791F50AAE2A51F25887D69E8CDC198D4 /* Pods-AppOne-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		30AD17FBD6FD8E282535565296BC122B /* SwitchboardCacheable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613B2B7812037EACD24B21EFA8C61BAF /* SwitchboardCacheable.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3D39469A51E41C462261146455526679 /* SwitchboardClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75E6B06BC89A2C225F15D083B9454D68 /* SwitchboardClient.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3E5E396909AF844ABF9442C20C108599 /* SwitchboardStorable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113B1CD0D4C4DFE6E2CAB297032D070B /* SwitchboardStorable.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		46638A9A601B3EF893D0BF3FB1CCFC14 /* SwitchboardCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ACA1935FE8F8C370D5C2F8F6262111 /* SwitchboardCache.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		467205B58656F2D496E6F31098F213F6 /* SwitchboardDebugListHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E114C9888052FF21692125173580726C /* SwitchboardDebugListHeader.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		497A0483F05D3E1A8A65AE0EE84C8AC8 /* SwitchboardDebugExperimentEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9713044E99468050783337AB9DE01182 /* SwitchboardDebugExperimentEditView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4AFD13DD5606AA76B9E12C0CE05BF850 /* SwitchboardPrefillFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8AEF102A30CE55807253799861207BB /* SwitchboardPrefillFeatureView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		51FC9FA0080D220A8A0C18B52AD01745 /* SwitchboardDebugFeatureEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4E2B112B5713CB00E50268E37B1062 /* SwitchboardDebugFeatureEditView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		56A149075444FA614BABE44ECF3C4967 /* UITableView+Bug.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F71A4D68CF7DCF2E1C8394E1C79C4C /* UITableView+Bug.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		57C3BE6521F8EF23DED96D4426A913D4 /* SwitchboardDebugExperimentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1437CC4F17E9834B2E9EB740AD9B190E /* SwitchboardDebugExperimentView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5852733F3EAF496478E0A068A3C9A72E /* SwitchboardDebugController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 603F95AA32663B808265AA5C86CDA7D0 /* SwitchboardDebugController.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		587C33C3C972D03480BD55066F5CA8BF /* SwitchboardKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D5BB48E32D489B2A3A87220EA8AB84 /* SwitchboardKeys.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		696461753CB9EFA2F9C74C78E5EFDB14 /* MyOtherAmazingFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95795FDDC3E5B075801ABEEB381E0E6E /* MyOtherAmazingFramework-dummy.m */; };
+		6B8781F9D1D16F6EC5167B95114572E6 /* Switchboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A98C424EDA9938B7E050DF3DB3727D13 /* Switchboard.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		76B2A501FAEF1A963E7818EC34F97297 /* SwitchboardJSONTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBC615B55B06441E4828B4E3C9F4E75 /* SwitchboardJSONTransformer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7B603695730A7705FC0B4D76709BA8EB /* SwitchboardDebugEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB73737C6995C7F73F114433488E09A /* SwitchboardDebugEditView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		811BB2F3B3EC9D5FA21C0E90912FD3D9 /* SwitchboardDebugSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBE63324454684458E996C5E8E4C7924 /* SwitchboardDebugSetting.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		885F6F3B3F9E41E4942C6D805604637C /* SwitchboardDebugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4226CAE044BB033933E77759ED63EC /* SwitchboardDebugView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9866B32E142BC1CF5D98D32E41BCD2EF /* SwitchboardDebugTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66F80E086CEE6718E2C8D4D5B0CE5CFC /* SwitchboardDebugTextFieldCell.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9E817D22C04AF9581EEF69F80C22EBC7 /* MyOtherAmazingFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 141BAC39B33A252B40369673F83C9E19 /* MyOtherAmazingFramework-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A35BFD9797278BE478DC49435115D27E /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9DF8277F809EB94966D2D1E9751780 /* MyClass.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A549E42FA191C4A34A12B73A9534D655 /* SwitchboardDebugButtonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196ED45D58B62C24885B8BF49E67EF9 /* SwitchboardDebugButtonCell.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A9E431548AF8AA0BB8FA59B23209D7BB /* SwitchboardPrefillListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E418F9314E4CB9C6E5CB7162F1C741F8 /* SwitchboardPrefillListView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AD1E5BA9BEC2B16D6AA1FF1ACF31B7B3 /* SwitchboardDebugListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F41D30EEB8C8FF229C3FF44D769FE4AD /* SwitchboardDebugListView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BBF0D0BB76FA8172414CA8558639257B /* MyAmazingFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2499F35A67A97C80166D53C16736EBFC /* MyAmazingFramework-dummy.m */; };
+		D4C108676E3B2BF1579A52D01A6EAF5A /* Pods-AppOne-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CC08930E6F0CCF4ACCF8E3EF30F2BC /* Pods-AppOne-dummy.m */; };
+		DB63823227E6365F25407D2671239652 /* SwitchboardDebugToggleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD465331E2844C3D4FD761B83C05271 /* SwitchboardDebugToggleCell.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DD6155C3A2FBB169E1A103FEA51BDDA6 /* SwitchboardValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 016E7DC36A959EBDEB4EFEEE125B6C35 /* SwitchboardValue.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DD7548BBAE0EF1396C5BDAD061AA8952 /* SwitchboardLogging.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71A748EF182190650F40F2B739BFEBF /* SwitchboardLogging.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DE70DCE102E121B0BC79A82FB8FE18C6 /* SwitchboardDebugFeatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4574F57AD77B3DC3B71536C9226BED6B /* SwitchboardDebugFeatureView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E14835AA892847530D81FC0FF82D1FD5 /* SwitchboardFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8967A9B73B50B535CC4AA9044FD62B1C /* SwitchboardFeature.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E2C69DDBDAAEEEB22C8665FC66239CDE /* Switchboard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2533F943F3F4619E32404DC28C2AB501 /* Switchboard-dummy.m */; };
+		F55CCAF39CA44F65530ED3577B97DF66 /* MyOtherClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0CACD3CACEAD40238717C2A05F2BE6 /* MyOtherClass.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F5682E27CC3FA3849610E0E85F38A8FF /* SwitchboardProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD0614AC2FE70A1EBC159AF16B10484 /* SwitchboardProperties.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F8080A14E02DAF9E9FB40B3D8D2ED14F /* SwitchboardDebugTextViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0E6635B9D589F4BD0B2D83158832765 /* SwitchboardDebugTextViewCell.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FE96E1EA4151038F1D4F005F7777E7A1 /* SwitchboardDefaultStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9107EF8052C2E2C00047045882CE4B78 /* SwitchboardDefaultStore.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2ED225BD50AABE9AB93619F9B9637B53 /* PBXContainerItemProxy */ = {
+		1E0BCBCD9E86F3554C4FF27DFD585F69 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 140263F4E94AD23FCB7E9B0728E0154F;
+			remoteGlobalIDString = C34E7087E41291E7F341490138103F83;
+			remoteInfo = MyAmazingFramework;
+		};
+		6258C5DEE59CA77A5F1328B2F6D6D4A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1639CA149A0C5278AE44724ED15BF9EB;
 			remoteInfo = Switchboard;
 		};
-		A74B61CA97B59778F1DBA7CA7ADAA6E4 /* PBXContainerItemProxy */ = {
+		D2A044DD0A9398765EC7E558FF2976C0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 140263F4E94AD23FCB7E9B0728E0154F;
+			remoteGlobalIDString = 1639CA149A0C5278AE44724ED15BF9EB;
 			remoteInfo = Switchboard;
 		};
-		E6EF4C68DF28DE17283595282E9D1BED /* PBXContainerItemProxy */ = {
+		D827BB0FD9BEBDD25876FAA5319C5222 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 140263F4E94AD23FCB7E9B0728E0154F;
+			remoteGlobalIDString = 1639CA149A0C5278AE44724ED15BF9EB;
 			remoteInfo = Switchboard;
+		};
+		E98FEFFF124C59B839A80CA52F6A77B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B19D1E2D3CE41F704507C1E5687E911;
+			remoteInfo = MyOtherAmazingFramework;
+		};
+		FE92D0959B915882737580BEDF725C56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C34E7087E41291E7F341490138103F83;
+			remoteInfo = MyAmazingFramework;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		016E7DC36A959EBDEB4EFEEE125B6C35 /* SwitchboardValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardValue.swift; path = Switchboard/Source/Protocols/SwitchboardValue.swift; sourceTree = "<group>"; };
 		01DCB5983873C9CEF7EDAD14A37B6A68 /* SwitchboardExperiment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardExperiment.swift; path = Switchboard/Source/SwitchboardExperiment.swift; sourceTree = "<group>"; };
+		0384EE4BFF3BDC824EB6A84CBEFBBEE7 /* MyAmazingFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyAmazingFramework-prefix.pch"; sourceTree = "<group>"; };
 		06BCBF2B03024131612EFB8EB10521D0 /* Switchboard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Switchboard-prefix.pch"; sourceTree = "<group>"; };
-		07BE723282D6430545514505268E5F0F /* Pods-AppOne-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppOne-acknowledgements.plist"; sourceTree = "<group>"; };
-		07CA94777B112B2E2208A90EE3B05049 /* Pods-MyOtherAmazingFramework-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyOtherAmazingFramework-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0B60CA3643CE4CB587386B39063278B4 /* Pods-MyAmazingFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyAmazingFramework-umbrella.h"; sourceTree = "<group>"; };
-		0E7FF037F817A9CF7D77657C38690EAC /* Pods-AppOne-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppOne-frameworks.sh"; sourceTree = "<group>"; };
 		113B1CD0D4C4DFE6E2CAB297032D070B /* SwitchboardStorable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardStorable.swift; path = Switchboard/Source/Protocols/SwitchboardStorable.swift; sourceTree = "<group>"; };
+		141BAC39B33A252B40369673F83C9E19 /* MyOtherAmazingFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MyOtherAmazingFramework-umbrella.h"; path = "../../Headers/Public/MyOtherAmazingFramework/MyOtherAmazingFramework-umbrella.h"; sourceTree = "<group>"; };
 		1437CC4F17E9834B2E9EB740AD9B190E /* SwitchboardDebugExperimentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardDebugExperimentView.swift; path = Switchboard/Source/Debugging/Listing/SwitchboardDebugExperimentView.swift; sourceTree = "<group>"; };
-		181B9D359B832B3BDD22F2CE76320C82 /* Pods-MyOtherAmazingFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyOtherAmazingFramework.debug.xcconfig"; sourceTree = "<group>"; };
-		1F235CDFE11007F71933B648DA8F516E /* Pods-MyAmazingFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyAmazingFramework.debug.xcconfig"; sourceTree = "<group>"; };
-		21456E5422443E5263AB3CAD1BA534E1 /* Pods-MyOtherAmazingFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyOtherAmazingFramework-dummy.m"; sourceTree = "<group>"; };
+		2499F35A67A97C80166D53C16736EBFC /* MyAmazingFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyAmazingFramework-dummy.m"; sourceTree = "<group>"; };
 		2533F943F3F4619E32404DC28C2AB501 /* Switchboard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Switchboard-dummy.m"; sourceTree = "<group>"; };
-		2B72CFCA61CB201EFD4C985CC79EB8C6 /* Pods-MyOtherAmazingFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyOtherAmazingFramework.modulemap"; sourceTree = "<group>"; };
 		2FD465331E2844C3D4FD761B83C05271 /* SwitchboardDebugToggleCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardDebugToggleCell.swift; path = Switchboard/Source/Debugging/Cells/SwitchboardDebugToggleCell.swift; sourceTree = "<group>"; };
-		300C2E5FA04F7630EDD0DD657F86FBB5 /* Pods-AppOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppOne.release.xcconfig"; sourceTree = "<group>"; };
 		308B6B1740161F266FDDF4630908E07E /* Switchboard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Switchboard-umbrella.h"; path = "../../Headers/Public/Switchboard/Switchboard-umbrella.h"; sourceTree = "<group>"; };
+		325F0122FA14D870B46A763C4D607F55 /* MyOtherAmazingFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MyOtherAmazingFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3624630F2502C6671E6EB3D28B27848F /* Switchboard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = Switchboard.modulemap; path = ../../Headers/Public/Switchboard/Switchboard.modulemap; sourceTree = "<group>"; };
-		39285146C21E27DDB94FC19BD44EEC9E /* Pods-AppOne.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppOne.modulemap"; sourceTree = "<group>"; };
-		3A26D239D4F73F44DA4B855FB64679AA /* Pods-AppOne-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppOne-resources.sh"; sourceTree = "<group>"; };
 		3B4226CAE044BB033933E77759ED63EC /* SwitchboardDebugView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardDebugView.swift; path = Switchboard/Source/Debugging/SwitchboardDebugView.swift; sourceTree = "<group>"; };
-		3B835EBC54E9B9ACDDB5F711D238C450 /* Pods-MyOtherAmazingFramework-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyOtherAmazingFramework-resources.sh"; sourceTree = "<group>"; };
 		3DBC615B55B06441E4828B4E3C9F4E75 /* SwitchboardJSONTransformer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardJSONTransformer.swift; path = Switchboard/Source/SwitchboardJSONTransformer.swift; sourceTree = "<group>"; };
-		3DDA3AAFA68DDCC629BB6B7B34F64260 /* libPods-AppOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AppOne.a"; path = "libPods-AppOne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3E947F7F4D47A497F31BB057C78C4BF0 /* Pods-MyOtherAmazingFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyOtherAmazingFramework.release.xcconfig"; sourceTree = "<group>"; };
+		3DBCA16EB8F70E3723B49C7B57B25A8C /* MyAmazingFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyAmazingFramework.xcconfig; sourceTree = "<group>"; };
+		3F0CACD3CACEAD40238717C2A05F2BE6 /* MyOtherClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyOtherClass.swift; path = MyOtherAmazingFramework/MyOtherClass.swift; sourceTree = "<group>"; };
 		4574F57AD77B3DC3B71536C9226BED6B /* SwitchboardDebugFeatureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardDebugFeatureView.swift; path = Switchboard/Source/Debugging/Listing/SwitchboardDebugFeatureView.swift; sourceTree = "<group>"; };
-		4D9BA72EF312D14CFFD198DF9F0934DD /* Pods-MyAmazingFramework-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyAmazingFramework-acknowledgements.plist"; sourceTree = "<group>"; };
+		47BBA05B3467C24AFB2AD0255BA635E7 /* libSwitchboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSwitchboard.a; path = libSwitchboard.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		48D1B3993E5EC4E90DA485A6209D46A6 /* MyAmazingFramework.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MyAmazingFramework.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4FD0614AC2FE70A1EBC159AF16B10484 /* SwitchboardProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardProperties.swift; path = Switchboard/Source/SwitchboardProperties.swift; sourceTree = "<group>"; };
 		50D5BB48E32D489B2A3A87220EA8AB84 /* SwitchboardKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardKeys.swift; path = Switchboard/Source/SwitchboardKeys.swift; sourceTree = "<group>"; };
 		516FAE57B5C37373A94561FDAA5159A1 /* SwitchboardAnalyticsProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardAnalyticsProvider.swift; path = Switchboard/Source/Protocols/SwitchboardAnalyticsProvider.swift; sourceTree = "<group>"; };
+		5412BD0A6F16E6204D20BBC1FFCA1C8B /* MyAmazingFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = MyAmazingFramework.modulemap; path = ../../Headers/Public/MyAmazingFramework/MyAmazingFramework.modulemap; sourceTree = "<group>"; };
+		5A1CCBD57F29A7A267A06C83C584DA22 /* Pods-AppOne-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppOne-resources.sh"; sourceTree = "<group>"; };
 		603F95AA32663B808265AA5C86CDA7D0 /* SwitchboardDebugController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardDebugController.swift; path = Switchboard/Source/Debugging/SwitchboardDebugController.swift; sourceTree = "<group>"; };
 		613B2B7812037EACD24B21EFA8C61BAF /* SwitchboardCacheable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardCacheable.swift; path = Switchboard/Source/Protocols/SwitchboardCacheable.swift; sourceTree = "<group>"; };
 		66F80E086CEE6718E2C8D4D5B0CE5CFC /* SwitchboardDebugTextFieldCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardDebugTextFieldCell.swift; path = Switchboard/Source/Debugging/Cells/SwitchboardDebugTextFieldCell.swift; sourceTree = "<group>"; };
-		74FC54807B8E0580D876D15B7D70113A /* Pods-AppOne-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppOne-dummy.m"; sourceTree = "<group>"; };
-		752676829BD0AC023C9E480B9D1314ED /* Pods-MyAmazingFramework-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyAmazingFramework-resources.sh"; sourceTree = "<group>"; };
+		68A578E459BF61E60152BF714786D91C /* libMyOtherAmazingFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMyOtherAmazingFramework.a; path = libMyOtherAmazingFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C2B4A0227DBE0F1BAAD8BE3D2EAA63 /* libPods-AppOne.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-AppOne.a"; path = "libPods-AppOne.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75E6B06BC89A2C225F15D083B9454D68 /* SwitchboardClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardClient.swift; path = Switchboard/Source/Protocols/SwitchboardClient.swift; sourceTree = "<group>"; };
-		786855A32B7BDBED0DA7EFF1E7A951F2 /* libSwitchboard.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSwitchboard.a; path = libSwitchboard.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		791F50AAE2A51F25887D69E8CDC198D4 /* Pods-AppOne-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppOne-umbrella.h"; sourceTree = "<group>"; };
+		7B4CFCC1C943A5629476A50CD230CDD1 /* MyOtherAmazingFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyOtherAmazingFramework-prefix.pch"; sourceTree = "<group>"; };
 		7F939B8803AB4F52EBB8CB03F39A02F4 /* SwitchboardPrefillController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardPrefillController.swift; path = Switchboard/Source/Debugging/Populating/SwitchboardPrefillController.swift; sourceTree = "<group>"; };
+		7F9DF8277F809EB94966D2D1E9751780 /* MyClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MyClass.swift; path = MyAmazingFramework/MyClass.swift; sourceTree = "<group>"; };
+		80C32D75DE859695F97A9F8A23BB16A0 /* Pods-AppOne.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppOne.release.xcconfig"; sourceTree = "<group>"; };
+		81A59964C712511B89E8C69C8A025F7E /* MyAmazingFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MyAmazingFramework-umbrella.h"; path = "../../Headers/Public/MyAmazingFramework/MyAmazingFramework-umbrella.h"; sourceTree = "<group>"; };
 		83F8B4A4D7A4AC52FF8288918B952C18 /* SwitchboardPrefillExperimentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardPrefillExperimentView.swift; path = Switchboard/Source/Debugging/Populating/SwitchboardPrefillExperimentView.swift; sourceTree = "<group>"; };
+		8657D80F46ED5149FD4FB7778AEF49DA /* MyOtherAmazingFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyOtherAmazingFramework.xcconfig; sourceTree = "<group>"; };
 		88287B9065E1907A7EC361B9EE96B1F1 /* Switchboard.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Switchboard.xcconfig; sourceTree = "<group>"; };
 		8967A9B73B50B535CC4AA9044FD62B1C /* SwitchboardFeature.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardFeature.swift; path = Switchboard/Source/SwitchboardFeature.swift; sourceTree = "<group>"; };
-		8EC82CD8DECC664D9203BA6E7F087552 /* Pods-MyAmazingFramework-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyAmazingFramework-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9107EF8052C2E2C00047045882CE4B78 /* SwitchboardDefaultStore.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardDefaultStore.swift; path = Switchboard/Source/SwitchboardDefaultStore.swift; sourceTree = "<group>"; };
 		9196ED45D58B62C24885B8BF49E67EF9 /* SwitchboardDebugButtonCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardDebugButtonCell.swift; path = Switchboard/Source/Debugging/Cells/SwitchboardDebugButtonCell.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		950BBBBBDB6E3E4F068579B49E45752E /* Pods-AppOne.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AppOne.modulemap"; sourceTree = "<group>"; };
+		95795FDDC3E5B075801ABEEB381E0E6E /* MyOtherAmazingFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyOtherAmazingFramework-dummy.m"; sourceTree = "<group>"; };
+		95E07E6A365B7384C09BB396F8E29EFC /* Pods-AppOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppOne.debug.xcconfig"; sourceTree = "<group>"; };
 		9713044E99468050783337AB9DE01182 /* SwitchboardDebugExperimentEditView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardDebugExperimentEditView.swift; path = Switchboard/Source/Debugging/Editing/SwitchboardDebugExperimentEditView.swift; sourceTree = "<group>"; };
-		9C79B49530115458AF7AA261F99DB883 /* Pods-MyAmazingFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyAmazingFramework.release.xcconfig"; sourceTree = "<group>"; };
-		A268D9F58D62D9BDD92FEFD678A7E01B /* Pods-AppOne-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppOne-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A36B0B2BC54D08810B084F5CC4914C72 /* SwitchboardDebugTapCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardDebugTapCell.swift; path = Switchboard/Source/Debugging/Cells/SwitchboardDebugTapCell.swift; sourceTree = "<group>"; };
-		A3C6649BF3D3F22606860B4FDCB3D6E0 /* Pods-MyOtherAmazingFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyOtherAmazingFramework-umbrella.h"; sourceTree = "<group>"; };
 		A8ACA1935FE8F8C370D5C2F8F6262111 /* SwitchboardCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardCache.swift; path = Switchboard/Source/SwitchboardCache.swift; sourceTree = "<group>"; };
 		A8AEF102A30CE55807253799861207BB /* SwitchboardPrefillFeatureView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardPrefillFeatureView.swift; path = Switchboard/Source/Debugging/Populating/SwitchboardPrefillFeatureView.swift; sourceTree = "<group>"; };
 		A98C424EDA9938B7E050DF3DB3727D13 /* Switchboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Switchboard.swift; path = Switchboard/Source/Switchboard.swift; sourceTree = "<group>"; };
 		B0E6635B9D589F4BD0B2D83158832765 /* SwitchboardDebugTextViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardDebugTextViewCell.swift; path = Switchboard/Source/Debugging/Cells/SwitchboardDebugTextViewCell.swift; sourceTree = "<group>"; };
-		B1C72F3208756A75AE10869AEC9F9BDC /* Pods-AppOne.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AppOne.debug.xcconfig"; sourceTree = "<group>"; };
+		B1CC08930E6F0CCF4ACCF8E3EF30F2BC /* Pods-AppOne-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AppOne-dummy.m"; sourceTree = "<group>"; };
 		B71A748EF182190650F40F2B739BFEBF /* SwitchboardLogging.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardLogging.swift; path = Switchboard/Source/SwitchboardLogging.swift; sourceTree = "<group>"; };
 		BDDCD7CE430BA6969C06D73886D25235 /* SwitchboardExperiment+Debug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SwitchboardExperiment+Debug.swift"; path = "Switchboard/Source/Debugging/Extensions/SwitchboardExperiment+Debug.swift"; sourceTree = "<group>"; };
-		C1562A21E143025E1412BA1BDB5164E3 /* Pods-MyAmazingFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyAmazingFramework-dummy.m"; sourceTree = "<group>"; };
-		C1EBF00F0F82154D7DDAD9FEC26C99BF /* Pods-MyAmazingFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyAmazingFramework.modulemap"; sourceTree = "<group>"; };
 		CBE63324454684458E996C5E8E4C7924 /* SwitchboardDebugSetting.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardDebugSetting.swift; path = Switchboard/Source/Debugging/Settings/SwitchboardDebugSetting.swift; sourceTree = "<group>"; };
-		D2264107829C51909A65F0F9026842EE /* libPods-MyOtherAmazingFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MyOtherAmazingFramework.a"; path = "libPods-MyOtherAmazingFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F71A4D68CF7DCF2E1C8394E1C79C4C /* UITableView+Bug.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UITableView+Bug.swift"; path = "Switchboard/Source/Debugging/Extensions/UITableView+Bug.swift"; sourceTree = "<group>"; };
 		E114C9888052FF21692125173580726C /* SwitchboardDebugListHeader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardDebugListHeader.swift; path = Switchboard/Source/Debugging/Listing/SwitchboardDebugListHeader.swift; sourceTree = "<group>"; };
 		E418F9314E4CB9C6E5CB7162F1C741F8 /* SwitchboardPrefillListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardPrefillListView.swift; path = Switchboard/Source/Debugging/Populating/SwitchboardPrefillListView.swift; sourceTree = "<group>"; };
+		E42BECD11DB849B03B1E71DF1EF8766E /* MyOtherAmazingFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = MyOtherAmazingFramework.modulemap; path = ../../Headers/Public/MyOtherAmazingFramework/MyOtherAmazingFramework.modulemap; sourceTree = "<group>"; };
+		E681E2A8D60361FE8D6DE78BE57DC7B1 /* Pods-AppOne-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AppOne-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8C06CDD0D2B3563E6B9239B95719BD2 /* libMyAmazingFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMyAmazingFramework.a; path = libMyAmazingFramework.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4E2B112B5713CB00E50268E37B1062 /* SwitchboardDebugFeatureEditView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardDebugFeatureEditView.swift; path = Switchboard/Source/Debugging/Editing/SwitchboardDebugFeatureEditView.swift; sourceTree = "<group>"; };
 		EBB73737C6995C7F73F114433488E09A /* SwitchboardDebugEditView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardDebugEditView.swift; path = Switchboard/Source/Debugging/Editing/SwitchboardDebugEditView.swift; sourceTree = "<group>"; };
-		EEBB876232195B3CE730C5B1C0C8BBF3 /* libPods-MyAmazingFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-MyAmazingFramework.a"; path = "libPods-MyAmazingFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F07EF70EA6DD841A39DA86623D687058 /* Pods-AppOne-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AppOne-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F41D30EEB8C8FF229C3FF44D769FE4AD /* SwitchboardDebugListView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchboardDebugListView.swift; path = Switchboard/Source/Debugging/Listing/SwitchboardDebugListView.swift; sourceTree = "<group>"; };
-		F7F9A6D2BE14901EFFFB5EB0BFEB2F83 /* Pods-MyOtherAmazingFramework-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyOtherAmazingFramework-acknowledgements.plist"; sourceTree = "<group>"; };
-		F81BD78F9AE755011565D6C07704BA3E /* Pods-AppOne-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AppOne-umbrella.h"; sourceTree = "<group>"; };
+		FFC56E4388ACCDA4177EA9C2D6725CE6 /* Pods-AppOne-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AppOne-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3600046974F4314D05DC99AEFB02D0A7 /* Frameworks */ = {
+		4090D01ACD64F59B402556E2C3680391 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B8FBE2804ACA6AF941DA3E8AD05E9D1 /* Frameworks */ = {
+		67D5CCEDE51CA93ABB123D9D5189B348 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B80F8159B516E7CFB22B60975A9A5D80 /* Frameworks */ = {
+		6BF2F45D45AECFB192170F030973497D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2024B7088BF82AEC8CDC309BB2DBB60 /* Frameworks */ = {
+		C5C8FFB967EF2316ED6DEC733970719E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -181,6 +202,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0B100140B597BCC07C95398A77CE9ADF /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5412BD0A6F16E6204D20BBC1FFCA1C8B /* MyAmazingFramework.modulemap */,
+				3DBCA16EB8F70E3723B49C7B57B25A8C /* MyAmazingFramework.xcconfig */,
+				2499F35A67A97C80166D53C16736EBFC /* MyAmazingFramework-dummy.m */,
+				0384EE4BFF3BDC824EB6A84CBEFBBEE7 /* MyAmazingFramework-prefix.pch */,
+				81A59964C712511B89E8C69C8A025F7E /* MyAmazingFramework-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/MyAmazingFramework";
+			sourceTree = "<group>";
+		};
+		0B28992065EA646E95721DBE91A26C1A /* MyAmazingFramework */ = {
+			isa = PBXGroup;
+			children = (
+				7F9DF8277F809EB94966D2D1E9751780 /* MyClass.swift */,
+				41339E8A06CEE4CFD1000FD23A74654B /* Pod */,
+				0B100140B597BCC07C95398A77CE9ADF /* Support Files */,
+			);
+			name = MyAmazingFramework;
+			path = ../MyAmazingFramework;
+			sourceTree = "<group>";
+		};
+		0BC488F580FF37747A9C7F68698211E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				88898D3157B7095227BE7A65A9469C93 /* Pods-AppOne */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,58 +241,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		306D3DB82C46ED2F745796D7E3DAA47D /* Pods-AppOne */ = {
+		41339E8A06CEE4CFD1000FD23A74654B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				39285146C21E27DDB94FC19BD44EEC9E /* Pods-AppOne.modulemap */,
-				A268D9F58D62D9BDD92FEFD678A7E01B /* Pods-AppOne-acknowledgements.markdown */,
-				07BE723282D6430545514505268E5F0F /* Pods-AppOne-acknowledgements.plist */,
-				74FC54807B8E0580D876D15B7D70113A /* Pods-AppOne-dummy.m */,
-				0E7FF037F817A9CF7D77657C38690EAC /* Pods-AppOne-frameworks.sh */,
-				3A26D239D4F73F44DA4B855FB64679AA /* Pods-AppOne-resources.sh */,
-				F81BD78F9AE755011565D6C07704BA3E /* Pods-AppOne-umbrella.h */,
-				B1C72F3208756A75AE10869AEC9F9BDC /* Pods-AppOne.debug.xcconfig */,
-				300C2E5FA04F7630EDD0DD657F86FBB5 /* Pods-AppOne.release.xcconfig */,
+				48D1B3993E5EC4E90DA485A6209D46A6 /* MyAmazingFramework.podspec */,
 			);
-			name = "Pods-AppOne";
-			path = "Target Support Files/Pods-AppOne";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		325AC1EB22AF3FFEF3DDC144D5B625B2 /* Pods-MyAmazingFramework */ = {
+		4D8DB11B3A9D898C937605B0E246C229 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C1EBF00F0F82154D7DDAD9FEC26C99BF /* Pods-MyAmazingFramework.modulemap */,
-				8EC82CD8DECC664D9203BA6E7F087552 /* Pods-MyAmazingFramework-acknowledgements.markdown */,
-				4D9BA72EF312D14CFFD198DF9F0934DD /* Pods-MyAmazingFramework-acknowledgements.plist */,
-				C1562A21E143025E1412BA1BDB5164E3 /* Pods-MyAmazingFramework-dummy.m */,
-				752676829BD0AC023C9E480B9D1314ED /* Pods-MyAmazingFramework-resources.sh */,
-				0B60CA3643CE4CB587386B39063278B4 /* Pods-MyAmazingFramework-umbrella.h */,
-				1F235CDFE11007F71933B648DA8F516E /* Pods-MyAmazingFramework.debug.xcconfig */,
-				9C79B49530115458AF7AA261F99DB883 /* Pods-MyAmazingFramework.release.xcconfig */,
+				325F0122FA14D870B46A763C4D607F55 /* MyOtherAmazingFramework.podspec */,
 			);
-			name = "Pods-MyAmazingFramework";
-			path = "Target Support Files/Pods-MyAmazingFramework";
-			sourceTree = "<group>";
-		};
-		43F7E18F082FDB3AD87C64D987DBE2C9 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				3DDA3AAFA68DDCC629BB6B7B34F64260 /* libPods-AppOne.a */,
-				EEBB876232195B3CE730C5B1C0C8BBF3 /* libPods-MyAmazingFramework.a */,
-				D2264107829C51909A65F0F9026842EE /* libPods-MyOtherAmazingFramework.a */,
-				786855A32B7BDBED0DA7EFF1E7A951F2 /* libSwitchboard.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		49A1897621374E71BB7FDB1C165F0CFF /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				306D3DB82C46ED2F745796D7E3DAA47D /* Pods-AppOne */,
-				325AC1EB22AF3FFEF3DDC144D5B625B2 /* Pods-MyAmazingFramework */,
-				FD6D7A350E96D66FA5B33E1A6DF0C2E1 /* Pods-MyOtherAmazingFramework */,
-			);
-			name = "Targets Support Files";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		5345CF1C2FCBDE71C1F6EDBA16D9D9C4 /* Support Files */ = {
@@ -255,15 +270,57 @@
 			path = "../Target Support Files/Switchboard";
 			sourceTree = "<group>";
 		};
+		59CE59BEC604A8EF8EFF55139BAA6F4B /* MyOtherAmazingFramework */ = {
+			isa = PBXGroup;
+			children = (
+				3F0CACD3CACEAD40238717C2A05F2BE6 /* MyOtherClass.swift */,
+				4D8DB11B3A9D898C937605B0E246C229 /* Pod */,
+				9EDF0D3B24C76F85E56523392D320354 /* Support Files */,
+			);
+			name = MyOtherAmazingFramework;
+			path = ../MyOtherAmazingFramework;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C1C1E414D08171BB37EA01744F8CFCE7 /* Development Pods */,
 				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
 				FEBA3113970989671FEC151C4935E12B /* Pods */,
-				43F7E18F082FDB3AD87C64D987DBE2C9 /* Products */,
-				49A1897621374E71BB7FDB1C165F0CFF /* Targets Support Files */,
+				BAA8C7EC70D5C80836659C88CEC73CE3 /* Products */,
+				0BC488F580FF37747A9C7F68698211E6 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		88898D3157B7095227BE7A65A9469C93 /* Pods-AppOne */ = {
+			isa = PBXGroup;
+			children = (
+				950BBBBBDB6E3E4F068579B49E45752E /* Pods-AppOne.modulemap */,
+				F07EF70EA6DD841A39DA86623D687058 /* Pods-AppOne-acknowledgements.markdown */,
+				E681E2A8D60361FE8D6DE78BE57DC7B1 /* Pods-AppOne-acknowledgements.plist */,
+				B1CC08930E6F0CCF4ACCF8E3EF30F2BC /* Pods-AppOne-dummy.m */,
+				FFC56E4388ACCDA4177EA9C2D6725CE6 /* Pods-AppOne-frameworks.sh */,
+				5A1CCBD57F29A7A267A06C83C584DA22 /* Pods-AppOne-resources.sh */,
+				791F50AAE2A51F25887D69E8CDC198D4 /* Pods-AppOne-umbrella.h */,
+				95E07E6A365B7384C09BB396F8E29EFC /* Pods-AppOne.debug.xcconfig */,
+				80C32D75DE859695F97A9F8A23BB16A0 /* Pods-AppOne.release.xcconfig */,
+			);
+			name = "Pods-AppOne";
+			path = "Target Support Files/Pods-AppOne";
+			sourceTree = "<group>";
+		};
+		9EDF0D3B24C76F85E56523392D320354 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E42BECD11DB849B03B1E71DF1EF8766E /* MyOtherAmazingFramework.modulemap */,
+				8657D80F46ED5149FD4FB7778AEF49DA /* MyOtherAmazingFramework.xcconfig */,
+				95795FDDC3E5B075801ABEEB381E0E6E /* MyOtherAmazingFramework-dummy.m */,
+				7B4CFCC1C943A5629476A50CD230CDD1 /* MyOtherAmazingFramework-prefix.pch */,
+				141BAC39B33A252B40369673F83C9E19 /* MyOtherAmazingFramework-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Pods/Target Support Files/MyOtherAmazingFramework";
 			sourceTree = "<group>";
 		};
 		A2E2A71B024C828F0FFC08E23A71CB60 /* Switchboard */ = {
@@ -310,20 +367,24 @@
 			path = Switchboard;
 			sourceTree = "<group>";
 		};
-		FD6D7A350E96D66FA5B33E1A6DF0C2E1 /* Pods-MyOtherAmazingFramework */ = {
+		BAA8C7EC70D5C80836659C88CEC73CE3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2B72CFCA61CB201EFD4C985CC79EB8C6 /* Pods-MyOtherAmazingFramework.modulemap */,
-				07CA94777B112B2E2208A90EE3B05049 /* Pods-MyOtherAmazingFramework-acknowledgements.markdown */,
-				F7F9A6D2BE14901EFFFB5EB0BFEB2F83 /* Pods-MyOtherAmazingFramework-acknowledgements.plist */,
-				21456E5422443E5263AB3CAD1BA534E1 /* Pods-MyOtherAmazingFramework-dummy.m */,
-				3B835EBC54E9B9ACDDB5F711D238C450 /* Pods-MyOtherAmazingFramework-resources.sh */,
-				A3C6649BF3D3F22606860B4FDCB3D6E0 /* Pods-MyOtherAmazingFramework-umbrella.h */,
-				181B9D359B832B3BDD22F2CE76320C82 /* Pods-MyOtherAmazingFramework.debug.xcconfig */,
-				3E947F7F4D47A497F31BB057C78C4BF0 /* Pods-MyOtherAmazingFramework.release.xcconfig */,
+				E8C06CDD0D2B3563E6B9239B95719BD2 /* libMyAmazingFramework.a */,
+				68A578E459BF61E60152BF714786D91C /* libMyOtherAmazingFramework.a */,
+				69C2B4A0227DBE0F1BAAD8BE3D2EAA63 /* libPods-AppOne.a */,
+				47BBA05B3467C24AFB2AD0255BA635E7 /* libSwitchboard.a */,
 			);
-			name = "Pods-MyOtherAmazingFramework";
-			path = "Target Support Files/Pods-MyOtherAmazingFramework";
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1C1E414D08171BB37EA01744F8CFCE7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B28992065EA646E95721DBE91A26C1A /* MyAmazingFramework */,
+				59CE59BEC604A8EF8EFF55139BAA6F4B /* MyOtherAmazingFramework */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		FEBA3113970989671FEC151C4935E12B /* Pods */ = {
@@ -337,49 +398,49 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		03E36105F47259ECF9BAEAEEE09DC8B3 /* Headers */ = {
+		698E1DADE8A1B2C476318FE211666CA7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B3F4114F93D718615ABA01D13C5474C /* Pods-MyOtherAmazingFramework-umbrella.h in Headers */,
+				300DF252A16927E82759FEB8C50253B0 /* Pods-AppOne-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4272A880C6E242C28F85B0B099141F93 /* Headers */ = {
+		9039DC3F62B046513B29AAC971194EB9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54ED3001FCDB52D00D225EF96F5EFF51 /* Pods-AppOne-umbrella.h in Headers */,
+				231CF973DFC9FD88CF9C64AC5B0510A3 /* MyAmazingFramework-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83C6BBCCD905B3982669AFE5D2F43C31 /* Headers */ = {
+		DDC310BD0BCAA11EEBE8F47328915318 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B9D02CFDBF01299A52D7A9C264A8880 /* Switchboard-umbrella.h in Headers */,
+				0C1B3D626F38D3F66C4A2F289C623D84 /* Switchboard-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B0BDF39830F498B3207D13C2FD76434A /* Headers */ = {
+		EF4B65E60FAF0DCAF464F3E0994379E0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				222DAAFCDB59632C288152503072D9BF /* Pods-MyAmazingFramework-umbrella.h in Headers */,
+				9E817D22C04AF9581EEF69F80C22EBC7 /* MyOtherAmazingFramework-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		140263F4E94AD23FCB7E9B0728E0154F /* Switchboard */ = {
+		1639CA149A0C5278AE44724ED15BF9EB /* Switchboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2F594A71EE2571CC40206F4BFF1DA080 /* Build configuration list for PBXNativeTarget "Switchboard" */;
+			buildConfigurationList = 751EA519E6BC24C22CA679125443473B /* Build configuration list for PBXNativeTarget "Switchboard" */;
 			buildPhases = (
-				83C6BBCCD905B3982669AFE5D2F43C31 /* Headers */,
-				159D22CF9DD2F4E1BB459699F3429E04 /* Sources */,
-				3600046974F4314D05DC99AEFB02D0A7 /* Frameworks */,
-				EE7A71B0A7D986DB1606A9AA3EA69AC7 /* Copy generated compatibility header */,
+				DDC310BD0BCAA11EEBE8F47328915318 /* Headers */,
+				69CBD15A791ED47C75BF300F89F45137 /* Sources */,
+				6BF2F45D45AECFB192170F030973497D /* Frameworks */,
+				052E9C385B0876ED4D220644B208C04B /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
@@ -387,61 +448,66 @@
 			);
 			name = Switchboard;
 			productName = Switchboard;
-			productReference = 786855A32B7BDBED0DA7EFF1E7A951F2 /* libSwitchboard.a */;
+			productReference = 47BBA05B3467C24AFB2AD0255BA635E7 /* libSwitchboard.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		4AFD44470D7F4CBCB03665E1BC264966 /* Pods-MyAmazingFramework */ = {
+		548CB6DC5A35EC5FC235AC407EEA36AF /* Pods-AppOne */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E65A3E58A68E4A7173FBA24F0A99E849 /* Build configuration list for PBXNativeTarget "Pods-MyAmazingFramework" */;
+			buildConfigurationList = 8777F4BBB038A27E91F30359EFFA350A /* Build configuration list for PBXNativeTarget "Pods-AppOne" */;
 			buildPhases = (
-				B0BDF39830F498B3207D13C2FD76434A /* Headers */,
-				19F510C12BE1C59A88F206572BA1C201 /* Sources */,
-				C2024B7088BF82AEC8CDC309BB2DBB60 /* Frameworks */,
+				698E1DADE8A1B2C476318FE211666CA7 /* Headers */,
+				D2752FEB01D892CF58980D8B23208118 /* Sources */,
+				C5C8FFB967EF2316ED6DEC733970719E /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D30425F482731E57D6966D663A151B57 /* PBXTargetDependency */,
-			);
-			name = "Pods-MyAmazingFramework";
-			productName = "Pods-MyAmazingFramework";
-			productReference = EEBB876232195B3CE730C5B1C0C8BBF3 /* libPods-MyAmazingFramework.a */;
-			productType = "com.apple.product-type.library.static";
-		};
-		8A57A6BA4B076D6E95BFE8818A9F47EC /* Pods-AppOne */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CA59E53A9ECE9DE8A66BDF4D3EA4D1E1 /* Build configuration list for PBXNativeTarget "Pods-AppOne" */;
-			buildPhases = (
-				4272A880C6E242C28F85B0B099141F93 /* Headers */,
-				A50E1E3FC390207FEEEEF758FA7816B5 /* Sources */,
-				9B8FBE2804ACA6AF941DA3E8AD05E9D1 /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3589A896C2D190A63DAEC11D0C5CCD52 /* PBXTargetDependency */,
+				168C55C684D89EDC0CDC0659E68651ED /* PBXTargetDependency */,
+				262AA405211C1E6AC86102B1575550A0 /* PBXTargetDependency */,
+				8B3402D15FB9C1F23DB4F660A5613986 /* PBXTargetDependency */,
 			);
 			name = "Pods-AppOne";
 			productName = "Pods-AppOne";
-			productReference = 3DDA3AAFA68DDCC629BB6B7B34F64260 /* libPods-AppOne.a */;
+			productReference = 69C2B4A0227DBE0F1BAAD8BE3D2EAA63 /* libPods-AppOne.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		9C6BE2A1674515D8A691FE30DF7BEA16 /* Pods-MyOtherAmazingFramework */ = {
+		5B19D1E2D3CE41F704507C1E5687E911 /* MyOtherAmazingFramework */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 85254A6574721280366482961D2DCB4F /* Build configuration list for PBXNativeTarget "Pods-MyOtherAmazingFramework" */;
+			buildConfigurationList = AAFE955B0CB765890BB4C3399842EE9A /* Build configuration list for PBXNativeTarget "MyOtherAmazingFramework" */;
 			buildPhases = (
-				03E36105F47259ECF9BAEAEEE09DC8B3 /* Headers */,
-				DFED69171012C8F4F6BE4D0F27F2CD02 /* Sources */,
-				B80F8159B516E7CFB22B60975A9A5D80 /* Frameworks */,
+				EF4B65E60FAF0DCAF464F3E0994379E0 /* Headers */,
+				26D806A404FD030C3242A230A6CA8FB5 /* Sources */,
+				4090D01ACD64F59B402556E2C3680391 /* Frameworks */,
+				8499B275F7E14A6029AC62937B3F6B06 /* Copy generated compatibility header */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				2DDDFC2E4F3975B787964F471A0E028E /* PBXTargetDependency */,
+				6CB080A2714E27B4C19E3262CC67FD46 /* PBXTargetDependency */,
+				FE518BA6642F300EB84AB09590B1FF93 /* PBXTargetDependency */,
 			);
-			name = "Pods-MyOtherAmazingFramework";
-			productName = "Pods-MyOtherAmazingFramework";
-			productReference = D2264107829C51909A65F0F9026842EE /* libPods-MyOtherAmazingFramework.a */;
+			name = MyOtherAmazingFramework;
+			productName = MyOtherAmazingFramework;
+			productReference = 68A578E459BF61E60152BF714786D91C /* libMyOtherAmazingFramework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C34E7087E41291E7F341490138103F83 /* MyAmazingFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC64BF89434F562FB0A4FB5630A551AA /* Build configuration list for PBXNativeTarget "MyAmazingFramework" */;
+			buildPhases = (
+				9039DC3F62B046513B29AAC971194EB9 /* Headers */,
+				4E0DA2740C7E8B7CF121B5E719B2616A /* Sources */,
+				67D5CCEDE51CA93ABB123D9D5189B348 /* Frameworks */,
+				425A8D1EA6D7DBBEF767605A6C34E909 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AF496102BCEE8293A788291E808ED539 /* PBXTargetDependency */,
+			);
+			name = MyAmazingFramework;
+			productName = MyAmazingFramework;
+			productReference = E8C06CDD0D2B3563E6B9239B95719BD2 /* libMyAmazingFramework.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -461,20 +527,20 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 43F7E18F082FDB3AD87C64D987DBE2C9 /* Products */;
+			productRefGroup = BAA8C7EC70D5C80836659C88CEC73CE3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8A57A6BA4B076D6E95BFE8818A9F47EC /* Pods-AppOne */,
-				4AFD44470D7F4CBCB03665E1BC264966 /* Pods-MyAmazingFramework */,
-				9C6BE2A1674515D8A691FE30DF7BEA16 /* Pods-MyOtherAmazingFramework */,
-				140263F4E94AD23FCB7E9B0728E0154F /* Switchboard */,
+				C34E7087E41291E7F341490138103F83 /* MyAmazingFramework */,
+				5B19D1E2D3CE41F704507C1E5687E911 /* MyOtherAmazingFramework */,
+				548CB6DC5A35EC5FC235AC407EEA36AF /* Pods-AppOne */,
+				1639CA149A0C5278AE44724ED15BF9EB /* Switchboard */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		EE7A71B0A7D986DB1606A9AA3EA69AC7 /* Copy generated compatibility header */ = {
+		052E9C385B0876ED4D220644B208C04B /* Copy generated compatibility header */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -499,130 +565,173 @@
 			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Switchboard/Switchboard.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/Switchboard/Switchboard-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
 			showEnvVarsInLog = 1;
 		};
+		425A8D1EA6D7DBBEF767605A6C34E909 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/MyAmazingFramework/MyAmazingFramework.modulemap",
+				"${PODS_ROOT}/Headers/Public/MyAmazingFramework/MyAmazingFramework-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/MyAmazingFramework-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/MyAmazingFramework/MyAmazingFramework.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/MyAmazingFramework/MyAmazingFramework-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+		8499B275F7E14A6029AC62937B3F6B06 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/MyOtherAmazingFramework/MyOtherAmazingFramework.modulemap",
+				"${PODS_ROOT}/Headers/Public/MyOtherAmazingFramework/MyOtherAmazingFramework-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/MyOtherAmazingFramework-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/MyOtherAmazingFramework/MyOtherAmazingFramework.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/MyOtherAmazingFramework/MyOtherAmazingFramework-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		159D22CF9DD2F4E1BB459699F3429E04 /* Sources */ = {
+		26D806A404FD030C3242A230A6CA8FB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D4E1A66775E55E88646AF33C3633085 /* Switchboard-dummy.m in Sources */,
-				1A526B06091D0370D53E29DDF7C79643 /* Switchboard.swift in Sources */,
-				6610EF2439FEFB19C0C1384CFD72AFA5 /* SwitchboardAnalyticsProvider.swift in Sources */,
-				5ADD8EA523283385CACF1F8C9B53155D /* SwitchboardCache.swift in Sources */,
-				A17C2F0CA59CD064B56A461637B38897 /* SwitchboardCacheable.swift in Sources */,
-				D77C64BC7EECD23DA525AAE432CA7A49 /* SwitchboardClient.swift in Sources */,
-				379C0C59BAEB3389DBEA20E5E198DAC0 /* SwitchboardDebugButtonCell.swift in Sources */,
-				97316355199DE927641E08D0067DE473 /* SwitchboardDebugController.swift in Sources */,
-				9BEBDDC9C278EE4D1263393DDF8B4000 /* SwitchboardDebugEditView.swift in Sources */,
-				1ED568CAA8924422820911640ACA9C6F /* SwitchboardDebugExperimentEditView.swift in Sources */,
-				04353F7DFA2966C716717BAC5B155D56 /* SwitchboardDebugExperimentView.swift in Sources */,
-				DAC4047429ACC872215B46E63DA9CF0C /* SwitchboardDebugFeatureEditView.swift in Sources */,
-				23643725DA7862217320EAD9852F8849 /* SwitchboardDebugFeatureView.swift in Sources */,
-				4F1420C583BE61005F66A8324ED517FC /* SwitchboardDebugListHeader.swift in Sources */,
-				862FCC41CB04109C30ED053E09E98A65 /* SwitchboardDebugListView.swift in Sources */,
-				D98E664504742B02E846D6DA3103BE06 /* SwitchboardDebugSetting.swift in Sources */,
-				F9448C60B47DB2F03BC76E79425A2F91 /* SwitchboardDebugTapCell.swift in Sources */,
-				E5FD1A9410BF6F4546268AF2C6928F8D /* SwitchboardDebugTextFieldCell.swift in Sources */,
-				F0EB6CB5DEB617ECE2A58F9D4BCFEC25 /* SwitchboardDebugTextViewCell.swift in Sources */,
-				EF555578E69E07DD6BC1DB0249217775 /* SwitchboardDebugToggleCell.swift in Sources */,
-				5770DCA45BCB0E9E31364B809AD38208 /* SwitchboardDebugView.swift in Sources */,
-				096BC6A8A81D5C5B88C6EA0C9B378FED /* SwitchboardDefaultStore.swift in Sources */,
-				ADB4D9DA37FCB054FEDD5B8710E32AFD /* SwitchboardExperiment+Debug.swift in Sources */,
-				8C375548596A5E2A84F4308E27E719F7 /* SwitchboardExperiment.swift in Sources */,
-				99A97B2B25072A983DC25CADA7D1768F /* SwitchboardFeature.swift in Sources */,
-				551AC0333F479C221699270FB9A06256 /* SwitchboardJSONTransformer.swift in Sources */,
-				14230A48CED4C5AB145879A274ABF2B4 /* SwitchboardKeys.swift in Sources */,
-				F912FCA790FD3270863A62867302CF56 /* SwitchboardLogging.swift in Sources */,
-				067CFC5C1E61B57F40510A62C1ADB159 /* SwitchboardPrefillController.swift in Sources */,
-				3A4F746EF5DFEED21563BB47E2BE3146 /* SwitchboardPrefillExperimentView.swift in Sources */,
-				2A1B7E8C63233A82E412B751A63BD71C /* SwitchboardPrefillFeatureView.swift in Sources */,
-				8D474093D23458E23AF2ED64E1F7FC06 /* SwitchboardPrefillListView.swift in Sources */,
-				C174E0FAA119406DDF3237821248A4F6 /* SwitchboardProperties.swift in Sources */,
-				0BAB01A7A410BAB276CA51E33FC9C0D1 /* SwitchboardStorable.swift in Sources */,
-				03C2DAE7BDF0507248366301AC7EC06D /* SwitchboardValue.swift in Sources */,
-				CBB37C4D323C4DF9FB548F3279C2FDCF /* UITableView+Bug.swift in Sources */,
+				696461753CB9EFA2F9C74C78E5EFDB14 /* MyOtherAmazingFramework-dummy.m in Sources */,
+				F55CCAF39CA44F65530ED3577B97DF66 /* MyOtherClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		19F510C12BE1C59A88F206572BA1C201 /* Sources */ = {
+		4E0DA2740C7E8B7CF121B5E719B2616A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FA209C69983AA35DE56D7083FBA4C3A /* Pods-MyAmazingFramework-dummy.m in Sources */,
+				BBF0D0BB76FA8172414CA8558639257B /* MyAmazingFramework-dummy.m in Sources */,
+				A35BFD9797278BE478DC49435115D27E /* MyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A50E1E3FC390207FEEEEF758FA7816B5 /* Sources */ = {
+		69CBD15A791ED47C75BF300F89F45137 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				691B37727F77506749FB0BF17E195759 /* Pods-AppOne-dummy.m in Sources */,
+				E2C69DDBDAAEEEB22C8665FC66239CDE /* Switchboard-dummy.m in Sources */,
+				6B8781F9D1D16F6EC5167B95114572E6 /* Switchboard.swift in Sources */,
+				1EFFAA7E248947010A8B25855FB552D4 /* SwitchboardAnalyticsProvider.swift in Sources */,
+				46638A9A601B3EF893D0BF3FB1CCFC14 /* SwitchboardCache.swift in Sources */,
+				30AD17FBD6FD8E282535565296BC122B /* SwitchboardCacheable.swift in Sources */,
+				3D39469A51E41C462261146455526679 /* SwitchboardClient.swift in Sources */,
+				A549E42FA191C4A34A12B73A9534D655 /* SwitchboardDebugButtonCell.swift in Sources */,
+				5852733F3EAF496478E0A068A3C9A72E /* SwitchboardDebugController.swift in Sources */,
+				7B603695730A7705FC0B4D76709BA8EB /* SwitchboardDebugEditView.swift in Sources */,
+				497A0483F05D3E1A8A65AE0EE84C8AC8 /* SwitchboardDebugExperimentEditView.swift in Sources */,
+				57C3BE6521F8EF23DED96D4426A913D4 /* SwitchboardDebugExperimentView.swift in Sources */,
+				51FC9FA0080D220A8A0C18B52AD01745 /* SwitchboardDebugFeatureEditView.swift in Sources */,
+				DE70DCE102E121B0BC79A82FB8FE18C6 /* SwitchboardDebugFeatureView.swift in Sources */,
+				467205B58656F2D496E6F31098F213F6 /* SwitchboardDebugListHeader.swift in Sources */,
+				AD1E5BA9BEC2B16D6AA1FF1ACF31B7B3 /* SwitchboardDebugListView.swift in Sources */,
+				811BB2F3B3EC9D5FA21C0E90912FD3D9 /* SwitchboardDebugSetting.swift in Sources */,
+				00F61B4063E9346029F6A1CC56CAF20F /* SwitchboardDebugTapCell.swift in Sources */,
+				9866B32E142BC1CF5D98D32E41BCD2EF /* SwitchboardDebugTextFieldCell.swift in Sources */,
+				F8080A14E02DAF9E9FB40B3D8D2ED14F /* SwitchboardDebugTextViewCell.swift in Sources */,
+				DB63823227E6365F25407D2671239652 /* SwitchboardDebugToggleCell.swift in Sources */,
+				885F6F3B3F9E41E4942C6D805604637C /* SwitchboardDebugView.swift in Sources */,
+				FE96E1EA4151038F1D4F005F7777E7A1 /* SwitchboardDefaultStore.swift in Sources */,
+				0BC3480C3705C14F47AFDECB2686F11A /* SwitchboardExperiment+Debug.swift in Sources */,
+				0697EA503848581CBB0E88F59B3AF34A /* SwitchboardExperiment.swift in Sources */,
+				E14835AA892847530D81FC0FF82D1FD5 /* SwitchboardFeature.swift in Sources */,
+				76B2A501FAEF1A963E7818EC34F97297 /* SwitchboardJSONTransformer.swift in Sources */,
+				587C33C3C972D03480BD55066F5CA8BF /* SwitchboardKeys.swift in Sources */,
+				DD7548BBAE0EF1396C5BDAD061AA8952 /* SwitchboardLogging.swift in Sources */,
+				19A66901DCC6AC70066E7E36CCFC3C80 /* SwitchboardPrefillController.swift in Sources */,
+				035F9C3AEE23309BA4B9D8FC24874E8C /* SwitchboardPrefillExperimentView.swift in Sources */,
+				4AFD13DD5606AA76B9E12C0CE05BF850 /* SwitchboardPrefillFeatureView.swift in Sources */,
+				A9E431548AF8AA0BB8FA59B23209D7BB /* SwitchboardPrefillListView.swift in Sources */,
+				F5682E27CC3FA3849610E0E85F38A8FF /* SwitchboardProperties.swift in Sources */,
+				3E5E396909AF844ABF9442C20C108599 /* SwitchboardStorable.swift in Sources */,
+				DD6155C3A2FBB169E1A103FEA51BDDA6 /* SwitchboardValue.swift in Sources */,
+				56A149075444FA614BABE44ECF3C4967 /* UITableView+Bug.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DFED69171012C8F4F6BE4D0F27F2CD02 /* Sources */ = {
+		D2752FEB01D892CF58980D8B23208118 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70B17B3360444C2C4EAC9A52D4FED82F /* Pods-MyOtherAmazingFramework-dummy.m in Sources */,
+				D4C108676E3B2BF1579A52D01A6EAF5A /* Pods-AppOne-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2DDDFC2E4F3975B787964F471A0E028E /* PBXTargetDependency */ = {
+		168C55C684D89EDC0CDC0659E68651ED /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Switchboard;
-			target = 140263F4E94AD23FCB7E9B0728E0154F /* Switchboard */;
-			targetProxy = E6EF4C68DF28DE17283595282E9D1BED /* PBXContainerItemProxy */;
+			name = MyAmazingFramework;
+			target = C34E7087E41291E7F341490138103F83 /* MyAmazingFramework */;
+			targetProxy = FE92D0959B915882737580BEDF725C56 /* PBXContainerItemProxy */;
 		};
-		3589A896C2D190A63DAEC11D0C5CCD52 /* PBXTargetDependency */ = {
+		262AA405211C1E6AC86102B1575550A0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = Switchboard;
-			target = 140263F4E94AD23FCB7E9B0728E0154F /* Switchboard */;
-			targetProxy = 2ED225BD50AABE9AB93619F9B9637B53 /* PBXContainerItemProxy */;
+			name = MyOtherAmazingFramework;
+			target = 5B19D1E2D3CE41F704507C1E5687E911 /* MyOtherAmazingFramework */;
+			targetProxy = E98FEFFF124C59B839A80CA52F6A77B9 /* PBXContainerItemProxy */;
 		};
-		D30425F482731E57D6966D663A151B57 /* PBXTargetDependency */ = {
+		6CB080A2714E27B4C19E3262CC67FD46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MyAmazingFramework;
+			target = C34E7087E41291E7F341490138103F83 /* MyAmazingFramework */;
+			targetProxy = 1E0BCBCD9E86F3554C4FF27DFD585F69 /* PBXContainerItemProxy */;
+		};
+		8B3402D15FB9C1F23DB4F660A5613986 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Switchboard;
-			target = 140263F4E94AD23FCB7E9B0728E0154F /* Switchboard */;
-			targetProxy = A74B61CA97B59778F1DBA7CA7ADAA6E4 /* PBXContainerItemProxy */;
+			target = 1639CA149A0C5278AE44724ED15BF9EB /* Switchboard */;
+			targetProxy = 6258C5DEE59CA77A5F1328B2F6D6D4A8 /* PBXContainerItemProxy */;
+		};
+		AF496102BCEE8293A788291E808ED539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Switchboard;
+			target = 1639CA149A0C5278AE44724ED15BF9EB /* Switchboard */;
+			targetProxy = D2A044DD0A9398765EC7E558FF2976C0 /* PBXContainerItemProxy */;
+		};
+		FE518BA6642F300EB84AB09590B1FF93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Switchboard;
+			target = 1639CA149A0C5278AE44724ED15BF9EB /* Switchboard */;
+			targetProxy = D827BB0FD9BEBDD25876FAA5319C5222 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		3C585BA71985EE91387710E3BBE666A4 /* Release */ = {
+		040BA2DBF615B879F9003CAD8441D886 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88287B9065E1907A7EC361B9EE96B1F1 /* Switchboard.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/Switchboard/Switchboard-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MODULEMAP_FILE = Headers/Public/Switchboard/Switchboard.modulemap;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = Switchboard;
-				PRODUCT_NAME = Switchboard;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		4D42648EE070CE7C1C75E73729D5F7BC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9C79B49530115458AF7AA261F99DB883 /* Pods-MyAmazingFramework.release.xcconfig */;
+			baseConfigurationReference = 80C32D75DE859695F97A9F8A23BB16A0 /* Pods-AppOne.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -632,7 +741,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MyAmazingFramework/Pods-MyAmazingFramework.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-AppOne/Pods-AppOne.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -644,7 +753,33 @@
 			};
 			name = Release;
 		};
-		515A0C66AEDBD64679A46148DF4895EB /* Debug */ = {
+		17AADA5CBBCADE762BEDFD927000F0D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DBCA16EB8F70E3723B49C7B57B25A8C /* MyAmazingFramework.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MyAmazingFramework/MyAmazingFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/MyAmazingFramework/MyAmazingFramework.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MyAmazingFramework;
+				PRODUCT_NAME = MyAmazingFramework;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A54C54BE539296B8B0B914756681C5D /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 88287B9065E1907A7EC361B9EE96B1F1 /* Switchboard.xcconfig */;
 			buildSettings = {
@@ -667,8 +802,89 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66F82EF8EC09582AE8EB610C8750C547 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8657D80F46ED5149FD4FB7778AEF49DA /* MyOtherAmazingFramework.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MyOtherAmazingFramework/MyOtherAmazingFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/MyOtherAmazingFramework/MyOtherAmazingFramework.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MyOtherAmazingFramework;
+				PRODUCT_NAME = MyOtherAmazingFramework;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		79EB1FE0AFAA1EF4D41C1E561583379A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8657D80F46ED5149FD4FB7778AEF49DA /* MyOtherAmazingFramework.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MyOtherAmazingFramework/MyOtherAmazingFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/MyOtherAmazingFramework/MyOtherAmazingFramework.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MyOtherAmazingFramework;
+				PRODUCT_NAME = MyOtherAmazingFramework;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8281370984DA4DB549D6ABB7BB55A520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DBCA16EB8F70E3723B49C7B57B25A8C /* MyAmazingFramework.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/MyAmazingFramework/MyAmazingFramework-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/MyAmazingFramework/MyAmazingFramework.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = MyAmazingFramework;
+				PRODUCT_NAME = MyAmazingFramework;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 		8DDFA5FA8D4131BFD96E5E26F3672644 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -736,72 +952,28 @@
 			};
 			name = Debug;
 		};
-		A06B609DC1550AE639EBB91B7B639CB7 /* Release */ = {
+		C66D534BC80E732C53AE728650CCA07A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 300C2E5FA04F7630EDD0DD657F86FBB5 /* Pods-AppOne.release.xcconfig */;
+			baseConfigurationReference = 88287B9065E1907A7EC361B9EE96B1F1 /* Switchboard.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Switchboard/Switchboard-prefix.pch";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AppOne/Pods-AppOne.modulemap";
+				MODULEMAP_FILE = Headers/Public/Switchboard/Switchboard.modulemap;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Switchboard;
+				PRODUCT_NAME = Switchboard;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C006FE20EA2BE525A89C55E5F903413D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 181B9D359B832B3BDD22F2CE76320C82 /* Pods-MyOtherAmazingFramework.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MyOtherAmazingFramework/Pods-MyOtherAmazingFramework.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		C1F34A066F497AEA9217B6647F25B798 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1C72F3208756A75AE10869AEC9F9BDC /* Pods-AppOne.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AppOne/Pods-AppOne.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -868,9 +1040,9 @@
 			};
 			name = Release;
 		};
-		DDB3410C2012D98D920B4DC9C378A2CC /* Debug */ = {
+		DAE897418F48BFAF9403D0439620A283 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F235CDFE11007F71933B648DA8F516E /* Pods-MyAmazingFramework.debug.xcconfig */;
+			baseConfigurationReference = 95E07E6A365B7384C09BB396F8E29EFC /* Pods-AppOne.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -880,7 +1052,7 @@
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MyAmazingFramework/Pods-MyAmazingFramework.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-AppOne/Pods-AppOne.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -890,30 +1062,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		F35176368AFE7BFA083BAAA02278E8B4 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3E947F7F4D47A497F31BB057C78C4BF0 /* Pods-MyOtherAmazingFramework.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MyOtherAmazingFramework/Pods-MyOtherAmazingFramework.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -927,38 +1075,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2F594A71EE2571CC40206F4BFF1DA080 /* Build configuration list for PBXNativeTarget "Switchboard" */ = {
+		751EA519E6BC24C22CA679125443473B /* Build configuration list for PBXNativeTarget "Switchboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				515A0C66AEDBD64679A46148DF4895EB /* Debug */,
-				3C585BA71985EE91387710E3BBE666A4 /* Release */,
+				C66D534BC80E732C53AE728650CCA07A /* Debug */,
+				5A54C54BE539296B8B0B914756681C5D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		85254A6574721280366482961D2DCB4F /* Build configuration list for PBXNativeTarget "Pods-MyOtherAmazingFramework" */ = {
+		8777F4BBB038A27E91F30359EFFA350A /* Build configuration list for PBXNativeTarget "Pods-AppOne" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C006FE20EA2BE525A89C55E5F903413D /* Debug */,
-				F35176368AFE7BFA083BAAA02278E8B4 /* Release */,
+				DAE897418F48BFAF9403D0439620A283 /* Debug */,
+				040BA2DBF615B879F9003CAD8441D886 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CA59E53A9ECE9DE8A66BDF4D3EA4D1E1 /* Build configuration list for PBXNativeTarget "Pods-AppOne" */ = {
+		AAFE955B0CB765890BB4C3399842EE9A /* Build configuration list for PBXNativeTarget "MyOtherAmazingFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1F34A066F497AEA9217B6647F25B798 /* Debug */,
-				A06B609DC1550AE639EBB91B7B639CB7 /* Release */,
+				66F82EF8EC09582AE8EB610C8750C547 /* Debug */,
+				79EB1FE0AFAA1EF4D41C1E561583379A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E65A3E58A68E4A7173FBA24F0A99E849 /* Build configuration list for PBXNativeTarget "Pods-MyAmazingFramework" */ = {
+		EC64BF89434F562FB0A4FB5630A551AA /* Build configuration list for PBXNativeTarget "MyAmazingFramework" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DDB3410C2012D98D920B4DC9C378A2CC /* Debug */,
-				4D42648EE070CE7C1C75E73729D5F7BC /* Release */,
+				17AADA5CBBCADE762BEDFD927000F0D4 /* Debug */,
+				8281370984DA4DB549D6ABB7BB55A520 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
