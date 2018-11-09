@@ -2,6 +2,10 @@
 
 Address how to avoid duplicating classes while using internal dynamic frameworks that embed static frameworks (frameworks that host a static library).
 
+Related issues:
+ - https://github.com/CocoaPods/CocoaPods/issues/5768
+ - https://github.com/CocoaPods/CocoaPods/issues/7938
+
 ## Typical Setup
 
 See the `master` branch.
