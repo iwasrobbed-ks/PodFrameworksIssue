@@ -1,6 +1,6 @@
 # PodFrameworksIssue
 
-Address how to avoid duplicating classes while using internal dynamic frameworks that embed static frameworks (frameworks that host a static library) or static libraries pods like in CocoaPods 1.5.x.
+Address how to avoid duplicating classes while using internal dynamic frameworks that embed static frameworks (frameworks that host a static library) or static library pods like in CocoaPods 1.5.x.
 
 Related issues:
  - https://github.com/CocoaPods/CocoaPods/issues/5768
