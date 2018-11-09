@@ -5,6 +5,11 @@ Address how to avoid duplicating classes while using internal dynamic frameworks
 Related issues:
  - https://github.com/CocoaPods/CocoaPods/issues/5768
  - https://github.com/CocoaPods/CocoaPods/issues/7938
+ 
+# Compare setups
+
+- [Typical, that has duplication warnings](https://github.com/rob-keepsafe/PodFrameworksIssue#typical-setup)
+- [Preferred, that works and deduplicates](https://github.com/rob-keepsafe/PodFrameworksIssue#preferred-setup)
 
 ## Typical Setup
 
