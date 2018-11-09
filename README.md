@@ -1,6 +1,6 @@
 # PodFrameworksIssue
 
-Address how to avoid duplicating classes while using internal frameworks. 
+Address how to avoid duplicating classes while using internal dynamic frameworks that embed static frameworks (frameworks that host a static library).
 
 ## Typical Setup
 
